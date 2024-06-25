@@ -51,3 +51,38 @@ console.log(typeof (id));
 console.log(typeof (names));
 console.log(typeof (myObj));
 console.log(typeof (myFunction));
+
+// +++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// Stack(primitive) and Heap(non-primitive)
+
+// all of the prmitive data types stored in the stack and it provides the copy of value if we do change in the value the original value will not change.
+
+// all of the non-primitibe data types / reference type are stored in the heap memory , it provides the reference of original value, if we do change in the value it will change the original value.
+
+let userName = "Virat Kohli";
+
+let userNameTwo = userName;
+
+userNameTwo = "MS Dhoni";
+
+console.log(userName);
+console.log(userNameTwo);
+
+let carInformation = {
+    name : "Honda",
+    model : 2012,
+    Year : 2016,
+    price : 5000,
+    country : "Pakistan",
+};
+
+let carInformationTwo = carInformation;
+
+carInformationTwo.name = "Suzuki";
+carInformationTwo.model = 2022;
+
+console.log(carInformation.name);
+console.log(carInformation.model);
+console.log(carInformationTwo.name);
+console.log(carInformationTwo.model);
