@@ -59,24 +59,72 @@
 
 // Conversion into Boolean
 
-let isLoggedIn = "";
-let valueOfLoggedIn = Boolean(isLoggedIn);
-console.log(valueOfLoggedIn);
-console.log(typeof(valueOfLoggedIn));
+// let isLoggedIn = "";
+// let valueOfLoggedIn = Boolean(isLoggedIn);
+// console.log(valueOfLoggedIn);
+// console.log(typeof(valueOfLoggedIn));
 
 
-// 1 => true
-// 0 => false
-// "Asim" => true
-// "" => false
+// // 1 => true
+// // 0 => false
+// // "Asim" => true
+// // "" => false
 
-// Conversion into String
+// // Conversion into String
 
-let newNumber = 50;
+// let newNumber = 50;
 
-let numberIntoString = String(newNumber);
+// let numberIntoString = String(newNumber);
 
-console.log(numberIntoString);
-console.log(typeof(numberIntoString));
+// console.log(numberIntoString);
+// console.log(typeof(numberIntoString));
 
 // 50 => 50
+
+// Operations
+
+// let value = 3;
+// let newValue = -value;
+
+// console.log(newValue);
+
+// console.log(2+2);
+// console.log(2-2);
+// console.log(2*2);
+// console.log(2**3);
+// console.log(2/2);
+// console.log(2%2);
+
+// let nameone = "hitesh";
+// let nametwo = "hello";
+// console.log(nameone + " " + nametwo);
+
+// console.log("1"+2+3);
+// console.log(2+3+"1");
+// console.log(2+3);
+// console.log("1"+"2");
+
+// console.log(((3*2)*2-2));
+
+
+// console.log(true);
+// console.log(false);
+// console.log(+true);
+// console.log(+false);
+// console.log(+"");
+
+// prefix and postfix
+
+// let x = 10;
+// let y = x++;
+
+// console.log("value of x is :"+ x);
+// console.log("value of y is :"+ y);
+
+// let a = 10;
+// let b = ++a;
+
+// console.log("value of a is :"+a);
+// console.log("value of b is :"+b);
+
+// lecture is completed.
