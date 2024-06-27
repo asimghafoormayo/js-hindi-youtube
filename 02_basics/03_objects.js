@@ -54,23 +54,23 @@
 
 // console.log(myObj);
 
-const myObj = {
-    name : "Asim",
-    age : 24,
-    city : "Lahore",
-    country : "Pakistan",
-};
+// const myObj = {
+//     name : "Asim",
+//     age : 24,
+//     city : "Lahore",
+//     country : "Pakistan",
+// };
 
-console.log(myObj);
+// console.log(myObj);
 
-myObj.greetings = function(){
-    console.log("Hello World");
-}
+// myObj.greetings = function(){
+//     console.log("Hello World");
+// }
 
-myObj.greetingsTwo = function(){
-    console.log(`username is ${this.name} age is ${this.age} and city is ${this.city} and country is ${this.country}`);
-}
+// myObj.greetingsTwo = function(){
+//     console.log(`username is ${this.name} age is ${this.age} and city is ${this.city} and country is ${this.country}`);
+// }
 
-console.log(myObj);
-console.log(myObj.greetings());
-console.log(myObj.greetingsTwo());
+// console.log(myObj);
+// console.log(myObj.greetings());
+// console.log(myObj.greetingsTwo());
