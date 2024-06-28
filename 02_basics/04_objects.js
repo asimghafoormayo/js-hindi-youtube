@@ -91,13 +91,13 @@
 // console.log(users[1].name);
 // console.log(users[1].email);
 
-let myObj1 = {
-    name : "Asim",
-    age : 24,
-    city : "Lahore",
-    country : "Pakistan"
-}
+// let myObj1 = {
+//     name : "Asim",
+//     age : 24,
+//     city : "Lahore",
+//     country : "Pakistan"
+// }
 
-console.log(Object.keys(myObj1));
-console.log(Object.values(myObj1));
-console.log(Object.entries(myObj1));
+// console.log(Object.keys(myObj1));
+// console.log(Object.values(myObj1));
+// console.log(Object.entries(myObj1));
