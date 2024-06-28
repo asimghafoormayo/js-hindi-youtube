@@ -42,3 +42,45 @@
 // }
 
 // console.log(userLoggedIn("hitesh"));
+
+// function calculateCartPrice(val1,val2, ...number){
+//     return number;
+// }
+// console.log(calculateCartPrice(100,200,300,400,1000,2000,100,200));
+
+// const myObj = {
+//     name : "Virat Kohli",
+//     age : 37,
+//     email : "virat@gmail.com",
+//     city : "Dehli",
+//     country : "India"
+// }
+
+// function userInformation(anyobject){
+//     return `username is ${anyobject.name} and age is ${anyobject.age} and email is ${anyobject.email} and city is ${anyobject.city} and country is ${anyobject.country}`;
+// }
+// console.log(userInformation(myObj));
+
+// function userTwo(anyobject){
+//     return `username is ${anyobject.name} and age is ${anyobject.age}`;
+// }
+
+// console.log(userTwo(
+//     {
+//         name : "Hitesh",
+//         age : 32
+//     }
+// ));
+
+// const myArr = ["hello","world"];
+
+// function myArrayInformation(myArray){
+//     return `first value is ${myArray[0]} and second value is ${myArray[1]}`;
+// }
+
+// // console.log(myArrayInformation(myArr));
+
+// console.log(myArrayInformation([
+//     "Hello",
+//     "World"
+// ]));
