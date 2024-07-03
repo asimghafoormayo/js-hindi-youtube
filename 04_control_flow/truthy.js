@@ -31,3 +31,27 @@
 // {
 //     console.log("object is empty");
 // }
+
+// Nullish Coalescing Operator (??) : null undefined
+
+// let val1;
+
+// // val1 = 10 ?? null ;
+// // val1 = null ?? 20;
+// // val1 = undefined ?? 50;
+// val1 = null ?? 10 ?? 20;
+
+
+
+// console.log(val1);
+
+
+
+
+// Terniary Operator
+
+// condition ? true : false 
+
+// const score = 100;
+
+// score >= 100 ? console.log("your score is good") : console.log("your score is not good");
