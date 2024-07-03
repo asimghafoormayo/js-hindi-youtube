@@ -4,7 +4,7 @@
 
 // for (const num of arr) {
 //     console.log(num);
-// }
+// } // for of loop is working to iterate the array.
 
 // const greetings = "hello world";
 
@@ -14,7 +14,7 @@
 //         continue;
 //     }
 //     console.log(`Each character is ${greets}`);
-// }
+// } // for of loop is working to iterate the string.
 
 // Maps
 
