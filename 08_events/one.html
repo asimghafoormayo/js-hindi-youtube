@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>events in HTML</title>
+</head>
+<body>
+    <div>
+        <ul id="images">
+            <li><img src="https://images.pexels.com/photos/26754397/pexels-photo-26754397/free-photo-of-sunrise-praia-do-felix.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" id="sunrise" alt="sunrise"></li>
+
+            <li><img src="https://images.pexels.com/photos/4679560/pexels-photo-4679560.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" id="wood" alt="wood"></li>
+
+            <li><img src="https://images.pexels.com/photos/26754397/pexels-photo-26754397/free-photo-of-sunrise-praia-do-felix.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" id="water" alt="sunrise"></li>
+
+            <li><img src="https://images.pexels.com/photos/4679560/pexels-photo-4679560.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" id="wood" alt="wood"></li>
+
+         <a href="https://www.google.com" style="color: black;" id="google">Google</a>
+
+        </ul>
+    </div>
+</body>
+<script>
+    // events in javascript run squentially. sometimes we ignore this squentially approach and do unsquential work in events like we do in asychronuous in javascript.
+
+    // directly putting the onclick event in the html code is not good approach.
+
+    // document.getElementById('wood').onclick = function(){
+    //     alert('wood clicked');
+    // } // this approach is better but it has limited functionality of listeners like it is only providing us onclick event, so its better to use addEventListener for events because it provides us so much functionalities we can perform any event.
+
+    // document.getElementById('wood').addEventListener('click',function(){
+    //     alert("wood is clicked");
+    // }) // this approach is best and modern, so we have to use that approach.
+
+    // attachEvent()
+    // jQuery - on
+
+    // document.getElementById('wood').addEventListener('click', function(e){
+    //     console.log(e);
+    // }, false);
+
+    // type, timestamp, defaultPrevented
+    // target , toElement, srcElement, currentTarget
+    // clientX, clientY, screenX, screenY,
+    // altkey, ctrlkey, shiftkey, keyCode
+
+    // event propogation
+
+    // event bubbling , it goes from bottom to top.
+
+    // document.getElementById('images').addEventListener('click',function(e){
+    //     console.log("clicked on ul");
+    // },false)
+
+    // document.getElementById('wood').addEventListener('click',function(e){
+    //     console.log("water is clicked");
+    //     e.stopPropagation();
+    // },false)
+
+    // event capturing , it goes from top to bottom when we will set the third parameter true , then the capturing is on. when there will be no value in the third parameter it is called default value and it is false.
+
+    // prevenDefault() it will stop the default behaviour of the element.
+
+    // document.getElementById('google').addEventListener('click',function(e){
+    //     e.preventDefault();
+    //     e.stopPropagation();
+    //     console.log("clicked on google");
+    // },false)
+
+
+    // document.querySelector('#images').addEventListener('click', function(e){
+    //     console.log(e);
+    //     console.log(e.target.tagName);
+    //     if(e.target.tagName === 'IMG'){
+    //         const remove = e.target.parentNode;
+    //         remove.remove();
+    //     }
+        
+    // },false )
+
+</script>
+</html>
