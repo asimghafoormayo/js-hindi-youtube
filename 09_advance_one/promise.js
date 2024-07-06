@@ -76,29 +76,45 @@
 
 
 
-async function getAllUsers(){
-  try {
-   const response = await fetch("https://jsonplaceholder.typicode.com/users");
-   const responseJson = await response.json();
-   console.log(responseJson);
-  } catch (error) {
-    console.log(`E: ${error}`);
-  }
-}
+// async function getAllUsers(){
+//   try {
+//    const response = await fetch("https://jsonplaceholder.typicode.com/users");
+//    const responseJson = await response.json();
+//    console.log(responseJson);
+//   } catch (error) {
+//     console.log(`E: ${error}`);
+//   }
+// }
 
-getAllUsers();
-
-
+// getAllUsers();
 
 
 
-fetch('https://jsonplaceholder.typicode.com/users')
-.then(function(response){
-    return response.json();
-}).then(function(data){
-    console.log(data);
-}).catch(function(error){
-    console.log(error);
-})
+
+
+// fetch('https://jsonplaceholder.typicode.com/users')
+// .then(function(response){
+//     return response.json();
+// }).then(function(data){
+//     console.log(data);
+// }).catch(function(error){
+//     console.log(error);
+// })
+
+
+
+// fetch('https://api.github.com/users/hiteshchoudhary')
+// .then(function(response){
+//     return response.json();
+// }).then(function(data){
+//     console.log(data);
+// }).catch(function(error){
+//     console.log(error);
+// })
+
+// fetch() method starts the process of fetching a resource from the network, returning a promise that is fulfilled once the response is available.
+
+// A fetch() promise only rejects when the request fails, for example, because of a badly-formed request URL or a network error. A fetch() promise does not reject if the server responds with HTTP status codes that indicate errors (404, 504, etc.). Instead, a then() handler must check the Response.ok and/or Response.status properties.
+
 
 
